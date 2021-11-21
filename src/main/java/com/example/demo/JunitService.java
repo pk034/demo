@@ -6,14 +6,15 @@ import org.springframework.stereotype.Service;
 @Service
 public class JunitService {
 	
-	@Autowired
-	ComUsersRepository cu;
+	/*
+	 * @Autowired ComUsersRepository cu;
+	 */
 	
 	public String getUser() {
 		
-		ComUser cr=new ComUser("pk",9443903514L); 
+//		ComUser cr=new ComUser("pk",9443903514L); 
 		//cu.save(cr);
-		return "welcome test package";
+		return "user";
 	}
 	
 }

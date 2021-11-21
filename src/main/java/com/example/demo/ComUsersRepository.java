@@ -3,7 +3,7 @@ package com.example.demo;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-@Repository
-public interface ComUsersRepository extends CrudRepository<ComUser,Integer> {
- 
-}
+//@Repository
+//public interface ComUsersRepository extends CrudRepository<ComUser,Integer> {
+// 
+//}
