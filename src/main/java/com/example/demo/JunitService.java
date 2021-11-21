@@ -13,7 +13,7 @@ public class JunitService {
 		
 		ComUser cr=new ComUser("pk",9443903514L); 
 		//cu.save(cr);
-		return "user";
+		return "welcome test package";
 	}
 	
 }
